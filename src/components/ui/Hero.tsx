@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import { ArrowUpRight, CirclePlay } from "lucide-react";
 
 const Hero = () => {
+  const ssjw = "bless";
   return (
     <div className="relative min-h-screen flex items-center justify-center px-6 overflow-hidden">
       <AnimatedGridPattern
