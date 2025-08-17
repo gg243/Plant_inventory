@@ -57,12 +57,13 @@ const invoices = [
 export default function InventoryTable() {
   return (
     <div className="flex items-center justify-center p-4">
+      <div className="flex items-center gap-2 py-4"></div>
       <div className="p-16">
-        <Table className="">
+        <Table className="w-full">
           <TableCaption>A lis t of your recent invoices.</TableCaption>
           <TableHeader>
             <TableRow>
-              <TableHead className="w-[100px]">Plant ID</TableHead>
+              <TableHead className="w-[700px]">Plant ID</TableHead>
               <TableHead>Name</TableHead>
               <TableHead>Category</TableHead>
               <TableHead className="text-right">Price</TableHead>

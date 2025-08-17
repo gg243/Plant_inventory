@@ -5,7 +5,6 @@ import { cn } from "@/lib/utils";
 import { ArrowUpRight, CirclePlay } from "lucide-react";
 
 const Hero = () => {
-  
   return (
     <div className="relative min-h-screen flex items-center justify-center px-6 overflow-hidden">
       <AnimatedGridPattern
@@ -19,11 +18,8 @@ const Hero = () => {
         )}
       />
       <div className="relative z-10 text-center max-w-2xl">
-        <Badge className="bg-gradient-to-br via-70% from-primary via-muted/30 to-primary rounded-full py-1 border-none">
-          Just released v1.0.0
-        </Badge>
         <h1 className="mt-6 text-4xl sm:text-5xl md:text-6xl font-bold !leading-[1.2] tracking-tight">
-          Customized Shadcn UI Blocks & Components
+          PLANT INVENTORY PAGE UNDER-DEVELOPMENT
         </h1>
         <p className="mt-6 text-[17px] md:text-lg">
           Explore a collection of Shadcn UI blocks and components, ready to
